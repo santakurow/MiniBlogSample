@@ -20,4 +20,6 @@ require("bootstrap/dist/js/bootstrap")
 require("trix")
 require("@rails/actiontext")
 
+import "../trix-editor-custom"
+
 import "./stylesheets/application"

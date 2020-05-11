@@ -1,2 +1,7 @@
-%h1 Posts#show
-%p Find me in app/views/posts/show.html.erb
+%h3.m-3
+  = @post.title
+
+= @post.body
+
+= link_to "Back", root_path, class: "text-secondary"
+
