@@ -3,10 +3,17 @@
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
+    "@rails/actiontext": "^6.0.3",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.2.2",
+    "bootstrap": "^4.4.1",
+    "trix": "^1.2.0",
     "turbolinks": "^5.2.0"
+  },
+  "scripts": {
+    "build": "./bin/webpack",
+    "start": "./bin/webpack-dev-server"
   },
   "version": "0.1.0",
   "devDependencies": {
