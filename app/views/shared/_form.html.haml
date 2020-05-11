@@ -1,0 +1,13 @@
+= form_with model: model_name, local: true, class: "form form-horizontal" do |f|
+  = render "shared/errors", model: model_name
+  .form-group
+    = f.label :title
+    = f.text_field :title, class: "form-control"
+  .form-group
+    = f.label :body
+    = f.rich_text_area :body, class: "form-control"
+
+  .form-group
+    = f.submit model_name.persisted? ? "Update" : "Create", class: "btn btn-success"
+
+= link_to "Back", root_path, class: "text-secondary"
