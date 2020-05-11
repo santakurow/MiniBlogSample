@@ -1,24 +1,33 @@
-# README
+# MiniBlogSample
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails6の新機能であるActionTextを使った簡単な記事投稿アプリを実装。  
+画像をアップロードする際の拡張子と画像容量サイズの制限も設けている。  
+フロントはBootstrapを使用。  
 
-Things you may want to cover:
 
-* Ruby version
+#### 言語
 
-* System dependencies
+* Ruby 2.6.4
+* Haml
+* Javascript
 
-* Configuration
+#### フレームワーク
 
-* Database creation
+* Ruby on Rails 6.0.3
 
-* Database initialization
+#### ライブラリ
 
-* How to run the test suite
+* jQuery 3.4.1
+* Bootstrap
 
-* Services (job queues, cache servers, search engines, etc.)
+#### DB
 
-* Deployment instructions
+* MySQL
 
-* ...
+#### 使用技術・ツール
+
+* ActionText
+* ActiveStorage
+* haml-rails (gem)
+* image-processing (gem)
+* webpack
